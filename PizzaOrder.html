@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<head>
+    <title>Pizza Ordering</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 class="heading">Black Goose Bistro | Pizza-on-Demand</h1>
+
+    <h2 class="info">Our wood fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour.</h2>
+    <br>
+    
+    <p class="main">
+        
+        
+        <br>
+        <form action="http://blackgoosebistro.com/pizza.php" class="main">
+            
+            <fieldset>
+            <legend>Your Information</legend>
+            <label>Name:</label>
+            <input type="text" name="fullname">
+            <br> 
+            <label>Address:</label>
+            <input type="text" name="Address">
+            <br>
+            <label>Telephone Number:</label>
+            <input type="tel" name="Number">
+            <br>
+            <label>Email:</label>
+            <input type="email" name="email">
+            <br>
+            <label>Delivery Instructions:</label>
+            <br>
+            <textarea placeholder="No more than 400 characters long" rows="5px" cols="40px" style="margin: 0px; width: 658px; height: 119px;"></textarea>
+            </fieldset>
+            <br>
+
+
+            <fieldset>
+            <legend><h2 style="font-size: 22px;">Design Your Dream Pizza</h2></legend>
+            
+            Pizza Specs<br>
+            <br>
+            Crust(Choose ONE):
+            <ol>
+                <li><input type="radio" name="rad">Classic White</li>
+                <li><input type="radio" name="rad">Multi Grain</li>
+                <li><input type="radio" name="rad">Cheese Stuffed Crust</li>
+                <li><input type="radio" name="rad">Gluten-free</li>
+            </ol>
+            Toppings(Choose as many as you want):
+            <ol>
+                <li><input type="checkbox">Red Sauce</li>
+                <li><input type="checkbox">White Sauce</li>
+                <li><input type="checkbox">Mozzarella Cheese</li>
+                <li><input type="checkbox">Pepperoni</li>
+                <li><input type="checkbox">Mushrooms</li>
+                <li><input type="checkbox">Peppers</li>
+                <li><input type="checkbox">Anchovies</li>
+            </ol>
+            </fieldset>
+            <br>
+
+            Number<br><br>
+            How Many Pizzas
+            <input type="number" list="choice">
+            <datalist id="choice">
+                <option value="1">
+                <option value="2">
+                <option value="3">
+                <option value="4">
+                <option value="5">
+                <option value="6">
+
+            </datalist>
+            <br>
+            
+            <input type="submit" value="Bring me a Pizza!" style="background-color: white; border-radius:5px; padding-left:20px; padding-right:20px; padding-top:5px; padding-bottom: 5px;">
+            
+            
+            <input type="reset" value="RESET" style="background-color: white; border-radius:5px; padding-left:20px; padding-right:20px; padding-top:5px; padding-bottom: 5px;">
+            
+        </form>
+
+        
+    </p>
+
+
+
+
+</body>
+
+
+
+
+
+
+</html>
+
+
